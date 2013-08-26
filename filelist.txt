@@ -1,0 +1,7 @@
+.:
+filelist.txt
+initrd.gz
+slaxmain.menu
+slax.menu
+slax.png
+vmlinuz

@@ -1,0 +1,13 @@
+MENU BEGIN SLAXLIVE
+MENU LABEL ^Slax 6.1.2
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/slax/slax.png
+
+MENU INCLUDE er/plugins/slax/slaxmain.menu
+  
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END

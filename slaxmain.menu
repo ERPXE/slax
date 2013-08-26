@@ -1,0 +1,19 @@
+LABEL SLAXLINUXXCONFKDE
+MENU LABEL ^Slax (KDE)
+KERNEL er/plugins/slax/vmlinuz
+INITRD er/plugins/slax/initrd.gz
+APPEND ramdisk_size=10000 root=/dev/ram0 rw autoexec=xconf;telinit~4 from=http://10.0.0.1/er/slax/
+IPAPPEND 1
+TEXT HELP
+                 Very small Live Linux.
+ENDTEXT
+
+LABEL SLAXLINUXXCONFTEXT
+MENU LABEL ^Slax - Text mode
+KERNEL er/plugins/slax/vmlinuz
+INITRD er/plugins/slax/initrd.gz
+APPEND ramdisk_size=6666 root=/dev/ram0 rw from=http://10.0.0.1/er/slax/
+IPAPPEND 1
+TEXT HELP
+                 Very small Live Linux - CLI mode.
+ENDTEXT
